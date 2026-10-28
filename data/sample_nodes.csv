@@ -1,0 +1,64 @@
+id,name,x,y,kind
+N00,Junction 0-0,0.061,-0.209,intersection
+N01,Junction 0-1,0.901,-0.122,intersection
+N02,Pebble Hardware,2.104,0.078,delivery
+N03,Junction 0-3,3.173,-0.182,intersection
+N04,Junction 0-4,3.966,-0.207,intersection
+N05,Junction 0-5,4.876,0.002,intersection
+N06,Amber Grocers,5.792,-0.133,delivery
+N07,Junction 0-7,7.066,0.02,intersection
+N08,Junction 0-8,7.877,0.039,intersection
+N10,Junction 1-0,0.136,0.783,intersection
+N11,Teak Furniture,1.135,1.087,delivery
+N12,Junction 1-2,1.93,0.848,intersection
+N13,Mango Mart,3.201,0.928,delivery
+N14,EcoRoute Central Depot,3.821,0.823,depot
+N15,Junction 1-5,5.153,1.046,intersection
+N16,Willow Library,6.135,1.101,delivery
+N17,Indigo Tailors,7.016,1.208,delivery
+N18,Junction 1-8,7.947,1.023,intersection
+N20,Jasmine Cafe,0.145,2.052,delivery
+N21,Junction 2-1,1.159,2.034,intersection
+N22,Riverfront Office Park,2.09,1.8,delivery
+N23,Junction 2-3,2.88,1.907,intersection
+N24,Junction 2-4,3.815,1.882,intersection
+N25,Comet Courier Point,4.824,1.902,delivery
+N26,Junction 2-6,6.06,1.941,intersection
+N27,Cedar School,6.943,1.872,delivery
+N28,Junction 2-8,7.897,2.192,intersection
+N30,Lotus Pharmacy,0.065,3.048,delivery
+N31,Junction 3-1,0.855,3.101,intersection
+N32,Junction 3-2,1.852,2.947,intersection
+N33,Silver Oak Hotel,3.215,3.062,delivery
+N34,Orchid Salon,4.025,3.081,delivery
+N35,Junction 3-5,5.151,3.121,intersection
+N36,Junction 3-6,5.881,2.794,intersection
+N37,Junction 3-7,6.919,2.898,intersection
+N38,Junction 3-8,7.873,3.195,intersection
+N40,Junction 4-0,0.166,4.518,intersection
+N41,Junction 4-1,1.068,4.554,intersection
+N42,Junction 4-2,2.182,4.582,intersection
+N43,Junction 4-3,2.897,4.489,intersection
+N44,Junction 4-4,4.027,4.496,intersection
+N45,Junction 4-5,5.037,4.775,intersection
+N46,Junction 4-6,5.956,4.477,intersection
+N47,Saffron Bakery,7.219,4.604,delivery
+N48,Junction 4-8,7.82,4.401,intersection
+N50,Coral Opticals,-0.172,5.656,delivery
+N51,Junction 5-1,1.129,5.566,intersection
+N52,Junction 5-2,1.808,5.548,intersection
+N53,Peacock Electronics,3.218,5.613,delivery
+N54,Junction 5-4,4.207,5.759,intersection
+N55,Junction 5-5,4.785,5.697,intersection
+N56,Monsoon Sports,6.08,5.616,delivery
+N57,Banyan Bookstore,6.897,5.662,delivery
+N58,Junction 5-8,7.829,5.571,intersection
+N60,Junction 6-0,-0.02,6.8,intersection
+N61,Junction 6-1,1.165,6.496,intersection
+N62,Neem Clinic,2.0,6.459,delivery
+N63,Junction 6-3,3.182,6.763,intersection
+N64,Junction 6-4,3.911,6.661,intersection
+N65,Junction 6-5,5.048,6.447,intersection
+N66,Junction 6-6,6.116,6.617,intersection
+N67,Marigold Florist,7.123,6.613,delivery
+N68,Junction 6-8,7.78,6.523,intersection

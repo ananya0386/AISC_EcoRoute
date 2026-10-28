@@ -1,0 +1,8 @@
+[theme]
+primaryColor = "#14855f"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+runOnSave = false

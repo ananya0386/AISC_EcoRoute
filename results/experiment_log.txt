@@ -1,0 +1,86 @@
+Dataset: EcoRoute Sample City (synthetic) | depot N14 | ACO params {'n_ants': 20, 'n_iterations': 100, 'alpha': 1.0, 'beta': 2.0, 'evaporation_rate': 0.1, 'q': 1.0, 'initial_pheromone': 0.1}
+  [   3%] 5 stops, instance 1/5
+  [   6%] 5 stops, instance 2/5
+  [   9%] 5 stops, instance 3/5
+  [  11%] 5 stops, instance 4/5
+  [  14%] 5 stops, instance 5/5
+  [  17%] 7 stops, instance 1/5
+  [  20%] 7 stops, instance 2/5
+  [  23%] 7 stops, instance 3/5
+  [  26%] 7 stops, instance 4/5
+  [  29%] 7 stops, instance 5/5
+  [  31%] 8 stops, instance 1/5
+  [  34%] 8 stops, instance 2/5
+  [  37%] 8 stops, instance 3/5
+  [  40%] 8 stops, instance 4/5
+  [  43%] 8 stops, instance 5/5
+  [  46%] 10 stops, instance 1/5
+  [  49%] 10 stops, instance 2/5
+  [  51%] 10 stops, instance 3/5
+  [  54%] 10 stops, instance 4/5
+  [  57%] 10 stops, instance 5/5
+  [  60%] 15 stops, instance 1/5
+  [  63%] 15 stops, instance 2/5
+  [  66%] 15 stops, instance 3/5
+  [  69%] 15 stops, instance 4/5
+  [  71%] 15 stops, instance 5/5
+  [  74%] 20 stops, instance 1/5
+  [  77%] 20 stops, instance 2/5
+  [  80%] 20 stops, instance 3/5
+  [  83%] 20 stops, instance 4/5
+  [  86%] 20 stops, instance 5/5
+  [  89%] 25 stops, instance 1/5
+  [  91%] 25 stops, instance 2/5
+  [  94%] 25 stops, instance 3/5
+  [  97%] 25 stops, instance 4/5
+  [ 100%] 25 stops, instance 5/5
+
+Finished in 141.2 s. CSVs written to C:\Users\Ananya Kawatra\Downloads\AISC\results
+
+Per-size summary:
+ stops  instances  aco_runs  mean_nn_km  mean_aco_km  mean_reduction_pct  std_reduction_pct  best_reduction_pct  worst_reduction_pct  aco_shorter_runs  tie_runs  aco_longer_runs  mean_astar_matrix_ms  mean_nn_ms  mean_aco_ms  mean_nn_gap_to_opt_pct  mean_aco_gap_to_opt_pct  mean_exact_ms
+     5          5        50       30.88        28.97                6.12               7.19               17.99                 0.00                30        20                0                  0.69        0.02       152.50                    7.16                     0.00           0.20
+     7          5        50       38.22        34.21                9.87               6.76               20.97                 0.88                50         0                0                  1.11        0.03       225.54                   11.60                     0.00           9.27
+     8          5        50       39.91        35.21               10.62               7.99               26.00                 3.95                50         0                0                  1.50        0.03       238.00                   13.05                     0.17          81.59
+    10          5        50       41.69        34.61               15.64               9.93               31.39                 5.74                50         0                0                  2.94        0.05       322.73                     NaN                      NaN            NaN
+    15          5        50       48.78        43.69                9.87               5.05               19.05                 4.97                50         0                0                  4.20        0.05       473.51                     NaN                      NaN            NaN
+    20          5        50       62.89        55.08               11.40               9.24               24.89                 1.81                50         0                0                 10.00        0.09       625.82                     NaN                      NaN            NaN
+    25          5        50       67.96        55.44               18.43               3.59               22.61                10.33                50         0                0                 11.12        0.12       770.71                     NaN                      NaN            NaN
+
+Per-instance summary:
+ stops  instance  trials  nn_km  aco_mean_km  aco_std_km  aco_best_km  aco_worst_km  optimal_km  mean_reduction_pct  best_reduction_pct  aco_found_optimum_runs
+     5         1      10  33.27        32.62        0.00        32.62         32.62       32.62                1.95                1.95                    10.0
+     5         2      10  32.50        32.50        0.00        32.50         32.50       32.50                0.00                0.00                    10.0
+     5         3      10  30.28        27.06        0.00        27.06         27.06       27.06               10.63               10.63                    10.0
+     5         4      10  26.57        26.57        0.00        26.57         26.57       26.57                0.00                0.00                    10.0
+     5         5      10  31.80        26.08        0.00        26.08         26.08       26.08               17.99               17.99                    10.0
+     7         1      10  32.94        32.65        0.00        32.65         32.65       32.65                0.88                0.88                    10.0
+     7         2      10  36.00        31.44        0.00        31.44         31.44       31.44               12.67               12.67                    10.0
+     7         3      10  36.90        34.30        0.00        34.30         34.30       34.30                7.05                7.05                    10.0
+     7         4      10  45.07        35.62        0.00        35.62         35.62       35.62               20.97               20.97                    10.0
+     7         5      10  40.19        37.05        0.00        37.05         37.05       37.05                7.81                7.81                    10.0
+     8         1      10  41.74        38.95        0.60        38.63         40.09       38.63                6.68                7.45                     5.0
+     8         2      10  29.62        28.45        0.00        28.45         28.45       28.45                3.95                3.95                    10.0
+     8         3      10  46.69        42.32        0.00        42.32         42.32       42.32                9.36                9.36                    10.0
+     8         4      10  49.77        36.83        0.00        36.83         36.83       36.83               26.00               26.00                    10.0
+     8         5      10  31.74        29.49        0.00        29.49         29.49       29.49                7.09                7.09                    10.0
+    10         1      10  33.26        29.44        0.00        29.44         29.44         NaN               11.49               11.49                     NaN
+    10         2      10  38.60        35.86        0.00        35.86         35.86         NaN                7.10                7.10                     NaN
+    10         3      10  50.69        34.78        0.00        34.78         34.78         NaN               31.39               31.39                     NaN
+    10         4      10  47.77        37.03        0.00        37.03         37.03         NaN               22.48               22.48                     NaN
+    10         5      10  38.14        35.95        0.00        35.95         35.95         NaN                5.74                5.74                     NaN
+    15         1      10  61.99        50.34        0.49        50.18         51.73         NaN               18.80               19.05                     NaN
+    15         2      10  43.34        39.70        0.12        39.65         39.96         NaN                8.39                8.51                     NaN
+    15         3      10  46.91        44.58        0.00        44.58         44.58         NaN                4.97                4.97                     NaN
+    15         4      10  45.24        40.11        0.04        40.09         40.17         NaN               11.33               11.38                     NaN
+    15         5      10  46.43        43.72        0.00        43.72         43.72         NaN                5.84                5.84                     NaN
+    20         1      10  55.72        54.71        0.00        54.71         54.71         NaN                1.81                1.81                     NaN
+    20         2      10  80.07        64.34        0.13        64.21         64.57         NaN               19.64               19.81                     NaN
+    20         3      10  60.54        57.99        0.11        57.82         58.09         NaN                4.21                4.49                     NaN
+    20         4      10  65.76        49.42        0.09        49.39         49.66         NaN               24.85               24.89                     NaN
+    20         5      10  52.35        48.95        0.71        47.67         49.42         NaN                6.50                8.94                     NaN
+    25         1      10  64.00        55.98        0.78        54.81         57.39         NaN               12.54               14.36                     NaN
+    25         2      10  74.81        61.80        0.30        61.65         62.37         NaN               17.39               17.59                     NaN
+    25         3      10  68.53        55.89        0.70        54.35         56.41         NaN               18.44               20.69                     NaN
+    25         4      10  61.84        47.86        0.00        47.86         47.86         NaN               22.61               22.61                     NaN
+    25         5      10  70.60        55.65        0.03        55.64         55.71         NaN               21.17               21.19                     NaN
