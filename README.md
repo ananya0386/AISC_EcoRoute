@@ -48,15 +48,7 @@ python -m venv .venv
 
 If Streamlit asks for an e-mail address on its first run, just press **Enter**.
 
-### Run the tests
-
-```bash
-.venv\Scripts\python.exe -m pytest -v
-```
-
-(or double-click `run_tests.bat`). There are 49 tests covering A* correctness, unreachable goals, tour validity, ACO reproducibility, metrics, input validation and the end-to-end pipeline.
-
-### Reproduce the experiments in the report
+### Reproduce the experiments
 
 ```bash
 .venv\Scripts\python.exe scripts\run_experiments.py --sizes 5 7 8 10 15 20 25 --instances 5 --trials 10 --seed 2026
@@ -111,8 +103,6 @@ road graph ──► A* for every pair of {depot + stops} ──► distance mat
 
 **Fairness:** NN and ACO use the same A\* distance matrix, the same depot, the same stops, the same return-to-depot rule and the same `tour_distance()` function.
 
-Full details are in [docs/PROJECT_REPORT.md](docs/PROJECT_REPORT.md).
-
 ---
 
 ## 4. Project structure
@@ -130,7 +120,7 @@ AISC/
 │   ├── route_utils.py          A* distance matrix, route expansion, consistency check
 │   ├── tours.py                Tour representation and the shared tour_distance()
 │   ├── simulation.py           Step-by-step decision data for the live simulation
-│   ├── pipeline.py             End-to-end workflow used by app, scripts and tests
+│   ├── pipeline.py             End-to-end workflow used by the app and scripts
 │   ├── evaluation.py           Fuel/cost/% metrics and the experiment runner
 │   ├── explain.py              Plain-language explanation of each result
 │   └── visualization.py        Plotly figures
@@ -141,14 +131,9 @@ AISC/
 ├── scripts/
 │   ├── run_experiments.py      CLI benchmark → results/*.csv
 │   └── parameter_sweep.py      ACO parameter sensitivity study
-├── results/                    Experiment outputs quoted in the report
-├── tests/                      pytest unit and integration tests
-├── docs/
-│   ├── PROJECT_REPORT.md       Report draft (methodology, pseudocode, complexity, results)
-│   ├── VIVA_GUIDE.md           Likely viva questions with answers
-│   └── DEMO_SCRIPT.md          Step-by-step demonstration script
+├── results/                    Experiment outputs (CSV)
 ├── requirements.txt
-└── setup_windows.bat / run_app.bat / run_tests.bat
+└── setup_windows.bat / run_app.bat
 ```
 
 ---
